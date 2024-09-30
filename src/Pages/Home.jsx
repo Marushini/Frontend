@@ -134,7 +134,7 @@ const Home = () => {
               />
             </div>
             <div className="mb-3">
-              <label className="form-label">Product Image</label>
+              <label className="form-label">Product Image </label>
               <input
                 type="text"
                 name="productImage"

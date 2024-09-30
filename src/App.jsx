@@ -20,7 +20,7 @@ const App = () => {
       <Footer />
      </div> 
      </BrowserRouter>
-      
+    
     </div>
   );
 };

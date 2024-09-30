@@ -14,7 +14,7 @@ const CreateProduct = () => {
     e.preventDefault();
     try {
       await axios.post(
-        "https://backend-zi01.onrender.com/api/products/create",
+        "https://backend-zi01.onrender.com/api/products/",
         formData
       );
       navigate("/"); //redirect to home page

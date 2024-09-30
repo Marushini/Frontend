@@ -47,7 +47,7 @@ const Home = () => {
     e.preventDefault();
     try {
       await axios.put(
-        `https://backend-zi01.onrender.com/api/products/edit/${editProduct._id}`,
+        `https://backend-zi01.onrender.com/api/products/${editProduct._id}`,
         formData
       );
       setEditProduct(null); //clear after edited
@@ -61,7 +61,7 @@ const Home = () => {
   const handleDelete = async (id) => {
     try {
       await axios.delete(
-        `https://backend-zi01.onrender.com/api/products/${ele._id}`
+        `https://backend-zi01.onrender.com/api/products/${handleDelete._id}`
       );
       fetchData(); // to refresh the product list after deleting
     } catch (error) {
